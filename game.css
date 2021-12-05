@@ -1,0 +1,5 @@
+/* General Styling for the Game */
+h1 {color: floralwhite; font-family: impact; font-size: 55px;}
+#planet {height: 350px; width: 350px; background-color: orangered; border-radius: 50%; display: inline-block; margin-top: 60px;
+        background: radial-gradient(circle at 100px 100px, rgb(201, 85, 43), black);}
+#begin {position: relative; top: 43%; text-align: center; font-size: 30px; font-family: marker felt; background-color: grey;}
