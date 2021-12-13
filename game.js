@@ -17,6 +17,7 @@ const createMediumAsteroids = () => {
         if (amtOfClicks === 3) {
             meteor.src="Artwork/Explosion.gif";
             highScore += 100;
+            document.querySelector("#score").innerHTML = "Score:" + highScore;
             setTimeout(setTimeout(() => {meteor.remove()}, 400));
         }
       })
@@ -32,6 +33,7 @@ const createSmallAsteroids = () => {
     meteor.addEventListener("click", (event) => {
         meteor.src="Artwork/Explosion.gif";
         highScore += 30;
+        document.querySelector("#score").innerHTML = "Score:" + highScore;
         setTimeout(setTimeout(() => {meteor.remove()}, 400));
       })
     setInterval(setInterval(() => {moveAsteroids(meteor)}, 10));

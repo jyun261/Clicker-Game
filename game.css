@@ -46,18 +46,26 @@ p {
   background-size: cover;
 }
 #pauseButton {
-  margin-top: 20px;
   margin-left: 20px;
+  float: left;
 }
 #pause {
   background-color: floralwhite;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  float: left;
 }
 #pauseIcon {
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   margin-left: -10px;
+  float: left;
+}
+#score {
+  color: floralwhite;
+  font-family: impact;
+  font-size: 40px;
+  float: right;
 }
